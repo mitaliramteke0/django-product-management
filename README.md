@@ -30,6 +30,8 @@ python manage.py migrate
 
 **5. Run the Server**
 bash
+set DJANGO_SETTINGS_MODULE=product_management.settings
+
 python manage.py runserver
 
 6. Start Redis & Celery Workers
