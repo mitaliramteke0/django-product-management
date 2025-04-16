@@ -1,5 +1,5 @@
-**Installation & Setup**
-1. Clone Repository & Setup Environment
+Installation & Setup
+**1. Clone Repository & Setup Environment**
 bash
 git clone <repo_link>
 cd product_management
