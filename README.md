@@ -43,6 +43,8 @@ Method	Endpoint	Description
 POST	/auth/register/	Register a user
 POST	/auth/login/	Login and get token
 POST	/auth/logout/	Logout & blacklist token
+
+
 **Category Management**
 Method	Endpoint	Description
 POST	/categories/	Create category (Admin Only)
@@ -50,6 +52,8 @@ GET	/categories/	List all categories
 GET	/categories/{id}/	Get specific category
 PATCH	/categories/{id}/	Update category (Admin Only)
 DELETE	/categories/{id}/	Soft delete category (Admin Only)
+
+
 **Product Management**
 Method	Endpoint	Description
 POST	/products/	Create product (Admin Only)
@@ -57,6 +61,8 @@ GET	/products/	List all products
 GET	/products/{id}/	Get specific product
 PATCH	/products/{id}/	Update product (Admin Only)
 DELETE	/products/{id}/	Soft delete product (Admin Only)
+
+
 **Bulk Upload**
 Method	Endpoint	Description
 POST	/upload/	Upload JSON file for bulk data
